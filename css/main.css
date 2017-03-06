@@ -1,0 +1,129 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px; }
+
+.main {
+  height: auto;
+  background: #020b0f url(../img/main_bg_1.jpg) repeat-y center center;
+  color: #ffffff;
+  /*position: relative;*/ }
+
+.second-screen {
+  background-color: #ffffff; }
+
+.logo {
+  position: relative; }
+  .logo img {
+    display: block;
+    vertical-align: top;
+    margin-top: 25px;
+    float: left; }
+
+p.logo-text {
+  display: inline-block;
+  padding-top: 31px;
+  padding-left: 50px;
+  color: #ffffff;
+  filter: alpha(opacity=30);
+  -moz-opacity: 30;
+  -khtml-opacity: 30;
+  opacity: 30;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$s)"; }
+
+.header {
+  background-color: rgba(16, 22, 54, 0.2);
+  width: 100%;
+  height: 70px; }
+
+ul {
+  list-style: none; }
+
+.main-menu {
+  background: none !important;
+  border: none;
+  padding-top: 10px; }
+
+.navbar-default .header-nav > li > a, .navbar-default .header-nav > li > a:focus {
+  color: #ffffff;
+  display: block;
+  padding-top: 24px; }
+
+.navbar-default .header-nav > li > a:hover {
+  color: #ffffff;
+  display: block;
+  background-color: rgba(116, 176, 160, 0.2); }
+
+.navbar-default .header-nav > li.active-link > a {
+  color: #ffffff;
+  display: block;
+  padding-top: 20px;
+  border-top: 4px solid #32b0ee;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+h1, h2 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300; }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 48px; }
+
+.main-text {
+  padding-top: 395px; }
+  .main-text p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 22px; }
+
+.accent {
+  color: #0eb493; }
+
+.social-icons {
+  font-size: 18px;
+  padding-top: 110px;
+  padding-bottom: 20px; }
+  .social-icons a {
+    color: #ffffff;
+    filter: alpha(opacity=50);
+    -moz-opacity: 50;
+    -khtml-opacity: 50;
+    opacity: 50;
+    ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$s)"; }
+  .social-icons a:hover {
+    filter: alpha(opacity=100);
+    -moz-opacity: 100;
+    -khtml-opacity: 100;
+    opacity: 100;
+    ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$s)"; }
+
+.parts-header {
+  display: block;
+  height: 100px;
+  margin-top: 80px;
+  background: url(../img/parts-header_bg.png) no-repeat center 55%;
+  color: #0eb493;
+  text-transform: uppercase;
+  font-size: 2.1em;
+  font-weight: 800;
+  text-align: center; }
+
+.features-header {
+  color: #061f33;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-top: 0px; }
+
+.small-text {
+  color: rgba(28, 52, 69, 0.8); }
+
+.parts-descr {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(28, 52, 69, 0.8);
+  padding-bottom: 50px; }
